@@ -17,9 +17,13 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: 'module',
-    project: './tsconfig.json',
+    project: 'tsconfig.json',
+    
   },
   plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {
   },
+  ignorePatterns: [
+    ".eslintrc.js"
+],
 };
