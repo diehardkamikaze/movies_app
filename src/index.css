@@ -101,3 +101,61 @@ form {
   background-color:#008cba;
   color: white;
 }
+
+
+/* movie page */
+
+.movie-details {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster {
+  width: 20%;
+}
+
+.poster img {
+  width: 100%;
+}
+
+.about-movie {
+  width: 50%;
+}
+
+.about-movie h1 {
+  margin: 0px;
+  font-size: 45px;
+  padding-bottom: 5px;
+}
+
+.about-movie tr:nth-child(2n) {
+  background-color: grey;
+}
+
+
+.about-movie td {
+  padding: 8px;
+}
+
+
+
+.small {
+  font-size: 10px;
+  font-color: grey;
+}
+
+.production {
+  width: 20%;
+}
+
+.production ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.production li {
+  padding: 5px 0px;
+}
