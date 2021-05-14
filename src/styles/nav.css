@@ -1,0 +1,17 @@
+.main-menu {
+  border-bottom: 4px solid black;
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  margin: 0px;
+  margin-left: auto;
+  list-style: none;
+  width: 40%;
+}
+
+.main-menu li {
+  margin-left: 10px;
+}
