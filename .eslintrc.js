@@ -22,6 +22,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {
+	  "react/prop-types": "off"
   },
   ignorePatterns: [
     ".eslintrc.js"
