@@ -1,7 +1,7 @@
-const SEARCH_API = new URL('http://www.omdbapi.com/');
+const SEARCH_API = new URL('https://www.omdbapi.com/');
 SEARCH_API.searchParams.set('apikey', 'f62f1494');
 
-const DETAILS_API = new URL('http://www.omdbapi.com/');
+const DETAILS_API = new URL('https://www.omdbapi.com/');
 DETAILS_API.searchParams.set('apikey', 'f62f1494');
 
 const NOTHING_TXT = 'Use search input to find movies';

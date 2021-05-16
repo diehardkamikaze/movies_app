@@ -6,12 +6,11 @@ import Nav from './interface/Nav';
 import Main from './interface/pages/Main';
 import About from './interface/pages/About';
 import Details from './interface/pages/Details';
-import './styles/index.css';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <header className="header">
           <Nav />
         </header>

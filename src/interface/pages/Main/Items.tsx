@@ -4,25 +4,21 @@ import '../../../styles/items.css';
 
 type Props = {
   fullitems: Array<any>,
-  moreHandler: MouseEventHandler<HTMLButtonElement> | undefined,
 };
 
-const Items: React.FC<Props> = ({ fullitems, moreHandler }) => (
-  <>
-    <ul className="search">
-      {fullitems.map((item) => (
-        <Item
-          key={item.imdbID}
-          Poster={item.Poster}
-          Title={item.Title}
-          Type={item.Type}
-          Year={item.Year}
-          imdbID={item.imdbID}
-        />
-      ))}
-    </ul>
-    <button type="button" onClick={moreHandler} className="button more">More movies</button>
-  </>
+const Items: React.FC<Props> = ({ fullitems }) => (
+  <ul className="search">
+    {fullitems.map((item) => (
+      <Item
+        key={item.imdbID}
+        Poster={item.Poster}
+        Title={item.Title}
+        Type={item.Type}
+        Year={item.Year}
+        imdbID={item.imdbID}
+      />
+    ))}
+  </ul>
 );
 
 export default Items;
